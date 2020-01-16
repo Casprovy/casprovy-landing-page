@@ -5,8 +5,12 @@ import * as mixins from '../../assets/_mixins';
 export const MainPage = styled.section`
 	${mixins.container()};
 	max-width: 940px;
-	margin: 200px auto;
+	margin: 130px auto;
 	text-align: center;
+
+	@media (${mixins.breakpoint('desktop-up')}) {
+		margin: 200px auto;
+	}
 
 	h1 {
 		line-height: 40px;
@@ -53,5 +57,58 @@ export const HomeLink = styled.a`
 		background: ${vars.colorHover};
 		top: 5px;
 		color: #ffffff;
+	}
+`;
+
+export const SocialLinks = styled.section`
+	margin-top: 100px;
+	opacity: 1;
+	margin: 50px auto 0 auto;
+	width: 90%;
+	height: 10%;
+
+	.social_list__links {
+	}
+
+	h1 {
+		margin-bottom: 30px;
+	}
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		margin-top: 80px;
+	}
+
+	img {
+		max-height: 32px;
+		height: 100%;
+		width: 32px;
+		&:hover {
+			transition: transform 0.3s;
+			transform: scale(1.2);
+		}
+
+		@media (${mixins.breakpoint('tablet-landscape-up')}) {
+			max-height: 25px;
+			width: 25px;
+		}
+	}
+`;
+
+export const ContactSocialLink = styled.a`
+	color: ${vars.colorAccent};
+	transition: color 0.3s;
+	text-align: center;
+	display: block;
+	/* display: flex; */
+	align-items: center;
+	padding: 0;
+	/* visibility: hidden; */
+
+	@media (${mixins.breakpoint('tablet-portrait-up')}) {
+		padding: 0 25px;
+	}
+
+	&:hover {
+		color: ${vars.colorHover};
 	}
 `;
