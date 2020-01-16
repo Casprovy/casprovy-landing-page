@@ -5,14 +5,14 @@ import * as mixins from '../assets/_mixins';
 export const NotFound = styled.section`
 	${mixins.container()};
 	max-width: 940px;
-	margin: 80px auto;
+	margin: 200px auto;
 	text-align: center;
 
 	h1 {
 		line-height: 40px;
 		font-size: 28px;
 		font-weight: ${vars.poppinsSemibold};
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 
 	p {
@@ -44,7 +44,7 @@ export const HomeLink = styled.a`
 	text-transform: uppercase;
 	font-weight: ${vars.poppinsSemibold};
 	transition: box-shadow 0.3s, top 0.3s;
-	margin-top: 50px;
+	margin-top: 30px;
 	display: inline-block;
 	text-decoration: none;
 

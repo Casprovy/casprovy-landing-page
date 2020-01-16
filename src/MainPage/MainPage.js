@@ -8,7 +8,7 @@ export default class MainPage extends Component {
 			<div>
 				<Styles.NotFound>
 					<img
-						src='https://res.cloudinary.com/ohcash/image/upload/v1578844288/landingpage/tesTrobot2.png'
+						src='https://res.cloudinary.com/ohcash/image/upload/v1579186580/landingpage/QRCode.png'
 						alt='Robo head'
 					/>
 					<h1>Navigate to my business page.</h1>
