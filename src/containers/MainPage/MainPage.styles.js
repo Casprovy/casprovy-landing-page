@@ -60,19 +60,19 @@ export const HomeLink = styled.a`
 	}
 `;
 
-export const SocialLinks = styled.section`
-	margin-top: 100px;
+export const SocialH1 = styled.h1`
+	margin-bottom: 50px;
+	font-size: 24px !important;
+	@media (${mixins.breakpoint('tablet-portrait-up')}) {
+		font-size: 28px !important;
+	}
+`;
+
+export const SocialLinks = styled.div`
 	opacity: 1;
 	margin: 50px auto 0 auto;
 	width: 90%;
 	height: 10%;
-
-	.social_list__links {
-	}
-
-	h1 {
-		margin-bottom: 30px;
-	}
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin-top: 80px;
@@ -99,14 +99,8 @@ export const ContactSocialLink = styled.a`
 	transition: color 0.3s;
 	text-align: center;
 	display: block;
-	/* display: flex; */
 	align-items: center;
 	padding: 0;
-	/* visibility: hidden; */
-
-	@media (${mixins.breakpoint('tablet-portrait-up')}) {
-		padding: 0 25px;
-	}
 
 	&:hover {
 		color: ${vars.colorHover};
