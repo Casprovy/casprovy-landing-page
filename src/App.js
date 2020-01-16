@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import MainPage from './MainPage/MainPage';
+
+import MainPage from './containers/MainPage/MainPage';
+
+import * as Styles from './App.styles';
 
 class App extends Component {
 	render() {
 		return (
-			<div className='App'>
+			<Styles.App className='App'>
 				<MainPage />
-			</div>
+			</Styles.App>
 		);
 	}
 }

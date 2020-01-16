@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import * as vars from '../assets/_variables';
-import * as mixins from '../assets/_mixins';
+import * as vars from '../../assets/_variables';
+import * as mixins from '../../assets/_mixins';
 
-export const NotFound = styled.section`
+export const MainPage = styled.section`
 	${mixins.container()};
 	max-width: 940px;
 	margin: 200px auto;
