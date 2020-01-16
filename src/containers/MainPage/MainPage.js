@@ -13,8 +13,8 @@ export default class MainPage extends Component {
 						src='https://res.cloudinary.com/ohcash/image/upload/v1579186580/landingpage/QRCode.png'
 						alt='Robo head'
 					/>
-					<h1>Navigate to my business page.</h1>
-					<p>Hope to start the cooperation!</p>
+					<h1>Welcome to Casprovy!</h1>
+					<p>Navigate to my business page.</p>
 					<Styles.HomeLink href='https://rtrealm.com' target='blank'>
 						Jump now!
 					</Styles.HomeLink>
