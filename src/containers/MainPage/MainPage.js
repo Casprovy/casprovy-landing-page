@@ -18,10 +18,10 @@ export default class MainPage extends Component {
 					<Styles.HomeLink href='https://rtrealm.com' target='_blank'>
 						Jump now!
 					</Styles.HomeLink>
-					{/* <Styles.SocialLinks>
-						<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
+					<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
+					<Styles.SocialLinks>
 						<div className='columns is-mobile'>
-							<div className='column'>
+							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink href='https://www.facebook.com/rtrealm' target='_blank'>
 									<img
 										src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/facebook-blue.svg'
@@ -29,7 +29,7 @@ export default class MainPage extends Component {
 									/>
 								</Styles.ContactSocialLink>
 							</div>
-							<div className='column'>
+							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink
 									href='https://www.linkedin.com/company/rtrealm/'
 									target='_blank'
@@ -40,7 +40,7 @@ export default class MainPage extends Component {
 									/>
 								</Styles.ContactSocialLink>
 							</div>
-							<div className='column'>
+							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink href='https://www.instagram.com/rt.realm' target='_blank'>
 									<img
 										src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/instagram-blue.svg'
@@ -49,7 +49,7 @@ export default class MainPage extends Component {
 								</Styles.ContactSocialLink>
 							</div>
 						</div>
-					</Styles.SocialLinks> */}
+					</Styles.SocialLinks>
 				</Styles.MainPage>
 			</Page>
 		);

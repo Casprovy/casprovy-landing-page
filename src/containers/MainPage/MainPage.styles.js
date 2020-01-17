@@ -61,7 +61,6 @@ export const HomeLink = styled.a`
 `;
 
 export const SocialH1 = styled.h1`
-	margin-bottom: 50px;
 	font-size: 24px !important;
 	@media (${mixins.breakpoint('tablet-portrait-up')}) {
 		font-size: 28px !important;
@@ -75,6 +74,8 @@ export const SocialLinks = styled.div`
 	height: 10%;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		display: flex;
+		justify-content: center;
 		margin-top: 80px;
 	}
 
@@ -101,6 +102,10 @@ export const ContactSocialLink = styled.a`
 	display: block;
 	align-items: center;
 	padding: 0;
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		width: 150px;
+	}
 
 	&:hover {
 		color: ${vars.colorHover};
