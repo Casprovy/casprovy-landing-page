@@ -15,7 +15,7 @@ export default class MainPage extends Component {
 			<Page>
 				<Styles.MainPage>
 					<img
-						src='https://casprovy-landingpage.s3.eu-central-1.amazonaws.com/QRCode.png'
+						src='https://casprovylandingpg132518-local.s3.eu-central-1.amazonaws.com/QRCode.png'
 						alt='QR code'
 					/>
 					<h1>Welcome to Casprovy!</h1>

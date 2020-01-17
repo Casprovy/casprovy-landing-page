@@ -12,5 +12,11 @@
 			"service": "Pinpoint",
 			"providerPlugin": "awscloudformation"
 		}
+	},
+	"storage": {
+		"casprovylandingpg": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }
