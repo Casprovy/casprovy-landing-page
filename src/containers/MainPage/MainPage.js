@@ -10,7 +10,7 @@ export default class MainPage extends Component {
 			<Page>
 				<Styles.MainPage>
 					<img
-						src='https://res.cloudinary.com/ohcash/image/upload/v1579186580/landingpage/QRCode.png'
+						src='https://casprovy-landingpage.s3.eu-central-1.amazonaws.com/QRCode.png'
 						alt='Robo head'
 					/>
 					<h1>Welcome to Casprovy!</h1>
@@ -18,7 +18,7 @@ export default class MainPage extends Component {
 					<Styles.HomeLink href='https://rtrealm.com' target='_blank'>
 						Jump now!
 					</Styles.HomeLink>
-					<Styles.SocialLinks>
+					{/* <Styles.SocialLinks>
 						<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
 						<div className='columns is-mobile'>
 							<div className='column'>
@@ -49,7 +49,7 @@ export default class MainPage extends Component {
 								</Styles.ContactSocialLink>
 							</div>
 						</div>
-					</Styles.SocialLinks>
+					</Styles.SocialLinks> */}
 				</Styles.MainPage>
 			</Page>
 		);
