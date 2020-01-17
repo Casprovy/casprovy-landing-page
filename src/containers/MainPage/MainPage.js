@@ -11,8 +11,12 @@ export default class MainPage extends Component {
 				<Styles.MainPage>
 					<img
 						src='https://casprovy-landingpage.s3.eu-central-1.amazonaws.com/QRCode.png'
-						alt='Robo head'
+						alt='QR code'
 					/>
+					{/* <img
+						src='https://casprovy-landingpage.s3.eu-central-1.amazonaws.com/Casprovy_img_lp.png'
+						alt='My Picture'
+					/> */}
 					<h1>Welcome to Casprovy!</h1>
 					<p>Navigate to my business page.</p>
 					<Styles.HomeLink href='https://rtrealm.com' target='_blank'>

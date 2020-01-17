@@ -69,14 +69,14 @@ export const SocialH1 = styled.h1`
 
 export const SocialLinks = styled.div`
 	opacity: 1;
-	margin: 50px auto 0 auto;
+	margin: 30px auto 0 auto;
 	width: 90%;
 	height: 10%;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		display: flex;
 		justify-content: center;
-		margin-top: 80px;
+		margin-top: 50px;
 	}
 
 	img {
@@ -104,7 +104,7 @@ export const ContactSocialLink = styled.a`
 	padding: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		width: 150px;
+		width: 100px;
 	}
 
 	&:hover {
