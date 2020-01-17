@@ -4,7 +4,9 @@ import * as mixins from '../../assets/_mixins';
 
 export const Button = styled.button`
 	background-color: ${vars.colorAccent};
-	padding: 11px 12px;
+	width: 180px;
+	/* padding: 14px; */
+	/* padding: 11px 12px; */
 	border-radius: 20px;
 	font-weight: ${vars.poppinsSemibold};
 	font-family: ${vars.poppins};
@@ -15,12 +17,10 @@ export const Button = styled.button`
 	line-height: normal;
 	text-align: center;
 	transition: background-color 0.3s;
-	width: 180px;
-	padding: 14px;
+	transition: background-color 0.2s, top 0.2s, box-shadow 0.2s;
 	border-radius: 100px;
 	box-shadow: 0px 24.6488px 65.7301px rgba(0, 0, 0, 0.35);
 	cursor: pointer;
-	transition: background-color 0.2s, top 0.2s, box-shadow 0.2s;
 	position: relative;
 	top: 0px;
 
