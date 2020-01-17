@@ -7,11 +7,12 @@ export const Button = styled.button`
 	padding: 11px 12px;
 	border-radius: 20px;
 	font-weight: ${vars.poppinsSemibold};
+	font-family: ${vars.poppins};
+	font-size: 18px;
 	color: #fff;
 	text-transform: uppercase;
 	border-color: transparent;
 	line-height: normal;
-	font-size: 18px;
 	text-align: center;
 	transition: background-color 0.3s;
 	width: 180px;
@@ -22,11 +23,10 @@ export const Button = styled.button`
 	transition: background-color 0.2s, top 0.2s, box-shadow 0.2s;
 	position: relative;
 	top: 0px;
-	font-family: ${vars.poppins};
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		padding: 18px;
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	&:hover {

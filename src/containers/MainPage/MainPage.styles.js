@@ -29,40 +29,7 @@ export const MainPage = styled.section`
 	.button__realm {
 		margin-top: 50px;
 	}
-
-	/* button {
-		margin-top: 35px;
-		font-size: 17px;
-		padding: 15px;
-		border-radius: 50px;
-	} */
 `;
-
-// export const HomeLink = styled.a`
-// 	background: ${vars.colorAccent};
-// 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-// 	border-radius: 29.8126px;
-// 	line-height: normal;
-// 	font-size: 18px;
-// 	text-align: center;
-// 	padding: 15px 20px;
-// 	color: #ffffff;
-// 	position: relative;
-// 	top: 0px;
-// 	text-transform: uppercase;
-// 	font-weight: ${vars.poppinsSemibold};
-// 	transition: box-shadow 0.3s, top 0.3s;
-// 	margin-top: 30px;
-// 	display: inline-block;
-// 	text-decoration: none;
-
-// 	&:hover {
-// 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
-// 		background: ${vars.colorHover};
-// 		top: 5px;
-// 		color: #ffffff;
-// 	}
-// `;
 
 export const SocialH1 = styled.h1`
 	font-size: 24px !important;

@@ -20,9 +20,6 @@ export default class MainPage extends Component {
 					/>
 					<h1>Welcome to Casprovy!</h1>
 					<p>Navigate to my business page.</p>
-					{/* <Styles.HomeLink href='https://rtrealm.com' target='_blank'>
-						Jump now!
-					</Styles.HomeLink> */}
 					<Button text='Jump now!' click={this.jumpToPage} class_name='button__realm' />
 					<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
 					<Styles.SocialLinks>
