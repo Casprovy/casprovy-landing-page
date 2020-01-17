@@ -9,7 +9,7 @@ export const MainPage = styled.section`
 	text-align: center;
 
 	@media (${mixins.breakpoint('desktop-up')}) {
-		margin: 200px auto;
+		margin: 150px auto;
 	}
 
 	h1 {
