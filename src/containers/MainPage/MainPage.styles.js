@@ -5,7 +5,7 @@ import * as mixins from '../../assets/_mixins';
 export const MainPage = styled.section`
 	${mixins.container()};
 	max-width: 940px;
-	margin: 130px auto;
+	margin: 60px auto;
 	text-align: center;
 
 	@media (${mixins.breakpoint('desktop-up')}) {
