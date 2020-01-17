@@ -1,0 +1,15 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-casprovylandingpage-local-132518-authRole",
+            "UnauthRoleArn": "arn:aws:iam::038909035013:role/amplify-casprovylandingpage-local-132518-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::038909035013:role/amplify-casprovylandingpage-local-132518-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-casprovylandingpage-local-132518-deployment",
+            "UnauthRoleName": "amplify-casprovylandingpage-local-132518-unauthRole",
+            "StackName": "amplify-casprovylandingpage-local-132518",
+            "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/amplify-casprovylandingpage-local-132518/6d66a1f0-3924-11ea-86c0-064a8d32fc9e",
+            "AmplifyAppId": "d2fa6ht49ux56s"
+        }
+    }
+}
