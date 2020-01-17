@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 
 import Page from '../Page/Page';
@@ -5,7 +7,9 @@ import Button from '../../components/Button/Button';
 
 import * as Styles from './MainPage.styles';
 
-export default class MainPage extends Component {
+type Props = {};
+
+export default class MainPage extends Component<Props> {
 	jumpToPage = () => {
 		window.location = 'https://www.rtrealm.com';
 	};
@@ -20,7 +24,12 @@ export default class MainPage extends Component {
 					/>
 					<h1>Welcome to Casprovy!</h1>
 					<p>Navigate to my business page.</p>
-					<Button text='Jump now!' click={this.jumpToPage} class_name='button__realm' />
+					<Button
+						text='Jump now!'
+						click={this.jumpToPage}
+						class_name='button__realm'
+						background=''
+					/>
 					<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
 					<Styles.SocialLinks>
 						<div className='columns is-mobile'>

@@ -1,7 +1,16 @@
+// @flow
+
 import React from 'react';
 import * as Styles from './Button.styles';
 
-const Button = props => {
+type Props = {
+	class_name: string,
+	background: string,
+	click: any,
+	text: string
+};
+
+const Button = (props: Props) => {
 	return (
 		<div>
 			<Styles.Button
