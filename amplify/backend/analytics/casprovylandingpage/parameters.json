@@ -1,0 +1,20 @@
+{
+    "appName": "casprovylandingpage",
+    "roleName": "pinpointLambdaRole75569841",
+    "cloudWatchPolicyName": "cloudWatchPolicy75569841",
+    "pinpointPolicyName": "pinpointPolicy75569841",
+    "authPolicyName": "pinpoint_amplify_75569841",
+    "unauthPolicyName": "pinpoint_amplify_75569841",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

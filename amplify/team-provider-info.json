@@ -10,6 +10,11 @@
             "StackName": "amplify-casprovylandingpage-local-132518",
             "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/amplify-casprovylandingpage-local-132518/6d66a1f0-3924-11ea-86c0-064a8d32fc9e",
             "AmplifyAppId": "d2fa6ht49ux56s"
+        },
+        "categories": {
+            "auth": {
+                "cognitoad3d795d": {}
+            }
         }
     }
 }

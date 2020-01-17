@@ -1,1 +1,14 @@
-{}
+{
+	"auth": {
+		"cognitoad3d795d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"casprovylandingpage": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
