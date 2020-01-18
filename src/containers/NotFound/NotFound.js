@@ -8,7 +8,7 @@ import * as Styles from './NotFound.styles';
 
 type Props = {};
 
-export default class NotFound extends Component<Props> {
+export default class NotFound extends Component<Props, {}> {
 	render() {
 		return (
 			<Page>

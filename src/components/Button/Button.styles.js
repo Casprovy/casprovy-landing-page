@@ -5,7 +5,7 @@ import * as mixins from '../../assets/_mixins';
 export const Button = styled.button`
 	background-color: ${vars.colorAccent};
 	width: 180px;
-	/* padding: 14px; */
+	padding: 14px;
 	/* padding: 11px 12px; */
 	border-radius: 20px;
 	font-weight: ${vars.poppinsSemibold};

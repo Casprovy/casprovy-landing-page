@@ -9,7 +9,7 @@ import * as Styles from './MainPage.styles';
 
 type Props = {};
 
-export default class MainPage extends Component<Props> {
+export default class MainPage extends Component<Props, {}> {
 	jumpToPage = () => {
 		window.location = 'https://www.rtrealm.com';
 	};

@@ -4,8 +4,8 @@ import React from 'react';
 import * as Styles from './Button.styles';
 
 type Props = {
-	class_name: string,
-	background: string,
+	class_name?: string,
+	background?: string,
 	click: any,
 	text: string
 };
