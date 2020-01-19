@@ -53,7 +53,7 @@ export default class MainPage extends Component<Props, {}> {
 								</Styles.ContactSocialLink>
 							</div>
 							<div className='column is-narrow-tablet'>
-								<Styles.ContactSocialLink href='https://www.instagram.com/rt.realm' target='_blank'>
+								<Styles.ContactSocialLink href='https://github.com/Casprovy' target='_blank'>
 									<svg
 										xmlns='http://www.w3.org/2000/svg'
 										height='32'
