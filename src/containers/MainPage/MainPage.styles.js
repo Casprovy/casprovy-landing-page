@@ -50,7 +50,8 @@ export const SocialLinks = styled.div`
 		margin-top: 50px;
 	}
 
-	img {
+	img,
+	svg {
 		max-height: 32px;
 		height: 100%;
 		width: 32px;
