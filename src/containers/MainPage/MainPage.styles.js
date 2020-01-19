@@ -5,18 +5,17 @@ import * as mixins from '../../assets/_mixins';
 export const MainPage = styled.section`
 	${mixins.container()};
 	max-width: 940px;
-	margin: 60px auto;
+	margin: 30px auto;
 	text-align: center;
 
 	@media (${mixins.breakpoint('desktop-up')}) {
-		margin: 150px auto;
+		margin: 30px auto;
 	}
 
 	h1 {
 		line-height: 40px;
 		font-size: 28px;
 		font-weight: ${vars.poppinsSemibold};
-		margin-top: 50px;
 	}
 
 	p {
@@ -31,7 +30,17 @@ export const MainPage = styled.section`
 	}
 `;
 
+export const NextParticle = styled.div`
+	${mixins.container()};
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 300px;
+			@media (${mixins.breakpoint('tablet-portrait-up')}) {
+			margin-bottom: 180px;
+`;
+
 export const SocialH1 = styled.h1`
+	margin-top: 50px !important;
 	font-size: 24px !important;
 	@media (${mixins.breakpoint('tablet-portrait-up')}) {
 		font-size: 28px !important;

@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 
+import NextParticleHome from '../../NextParticle/NextParticleHome';
 import Page from '../Page/Page';
 import Button from '../../components/Button/Button';
 
@@ -10,6 +11,14 @@ import * as Styles from './MainPage.styles';
 type Props = {};
 
 export default class MainPage extends Component<Props, {}> {
+	consoleText = () => {
+		console.log('%cNICE TO SEE YOU!', 'font-size: 20px; ; color: #4ecfff');
+	};
+
+	componentDidMount() {
+		this.consoleText();
+	}
+
 	jumpToPage = () => {
 		window.location = 'https://www.rtrealm.com';
 	};
@@ -18,10 +27,9 @@ export default class MainPage extends Component<Props, {}> {
 		return (
 			<Page>
 				<Styles.MainPage>
-					<img
-						src='https://casprovylandingpg132518-local.s3.eu-central-1.amazonaws.com/QRCode.png'
-						alt='QR code'
-					/>
+					<Styles.NextParticle>
+						<NextParticleHome />
+					</Styles.NextParticle>
 					<h1>Welcome to Casprovy!</h1>
 					<p>Navigate to my business page.</p>
 					<Button
@@ -36,7 +44,7 @@ export default class MainPage extends Component<Props, {}> {
 							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink href='https://twitter.com/casprovy' target='_blank'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1579432510/landingpage/twitter-blue.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1579454846/casprovy/twitter-blue.svg'
 										alt='Facebook logo'
 									/>
 								</Styles.ContactSocialLink>
@@ -47,7 +55,7 @@ export default class MainPage extends Component<Props, {}> {
 									target='_blank'
 								>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578847544/landingpage/linkedin_logo_blue.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1579454846/casprovy/linkedin_logo_blue.svg'
 										alt='LinkedIn logo'
 									/>
 								</Styles.ContactSocialLink>
@@ -59,7 +67,7 @@ export default class MainPage extends Component<Props, {}> {
 										height='32'
 										fill='#4ecfff'
 										viewBox='0 0 16 16'
-										version='1.1'
+										// version='1.1'
 										width='32'
 										aria-hidden='true'
 									>
