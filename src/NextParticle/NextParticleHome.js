@@ -10,8 +10,7 @@ export const NextParticleHome = () => {
 	const [settings, setSettings] = useState({
 		colorArr: undefined,
 		renderer: 'default',
-		imageUrl:
-			'https://res.cloudinary.com/ohcash/image/upload/v1578844288/landingpage/tesTrobot2.png',
+		imageUrl: 'https://res.cloudinary.com/ohcash/image/upload/v1579463489/casprovy/tesTrobot2.png',
 		particleGap: 1,
 		gravity: 0.3,
 		noise: 7,
