@@ -1,14 +1,14 @@
 // @flow
 
 import React, { Component } from 'react';
-
+import Amplify, { Analytics } from 'aws-amplify';
+import awsconfig from './aws-exports';
 import MainPage from './containers/MainPage/MainPage';
-
 import * as Styles from './App.styles';
 
-type Props = {
-  
-}
+Amplify.configure(awsconfig);
+
+type Props = {};
 
 class App extends Component<Props> {
 	render() {
