@@ -30,20 +30,20 @@ export default class MainPage extends Component<Props, {}> {
 						class_name='button__realm'
 						background=''
 					/>
-					<Styles.SocialH1>Follow my company on:</Styles.SocialH1>
+					<Styles.SocialH1>Follow me on:</Styles.SocialH1>
 					<Styles.SocialLinks>
 						<div className='columns is-mobile'>
 							<div className='column is-narrow-tablet'>
-								<Styles.ContactSocialLink href='https://www.facebook.com/rtrealm' target='_blank'>
+								<Styles.ContactSocialLink href='https://twitter.com/casprovy' target='_blank'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/facebook-blue.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1579432510/landingpage/twitter-blue.svg'
 										alt='Facebook logo'
 									/>
 								</Styles.ContactSocialLink>
 							</div>
 							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink
-									href='https://www.linkedin.com/company/rtrealm/'
+									href='https://www.linkedin.com/in/tomasz-gasienica-szostak-279b175/'
 									target='_blank'
 								>
 									<img
@@ -52,14 +52,14 @@ export default class MainPage extends Component<Props, {}> {
 									/>
 								</Styles.ContactSocialLink>
 							</div>
-							<div className='column is-narrow-tablet'>
+							{/* <div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink href='https://www.instagram.com/rt.realm' target='_blank'>
 									<img
 										src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/instagram-blue.svg'
 										alt='Instagram logo'
 									/>
 								</Styles.ContactSocialLink>
-							</div>
+							</div> */}
 						</div>
 					</Styles.SocialLinks>
 				</Styles.MainPage>
