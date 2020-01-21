@@ -8,6 +8,9 @@ import * as Styles from './App.styles';
 
 Amplify.configure(awsconfig);
 
+// analytics does not seem to work
+Analytics.enable();
+
 type Props = {};
 
 class App extends Component<Props> {
