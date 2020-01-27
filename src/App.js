@@ -1,15 +1,15 @@
 // @flow
 
 import React, { Component } from 'react';
-// import Amplify, { Analytics } from 'aws-amplify';
+import Amplify, { Analytics } from 'aws-amplify';
 // import awsconfig from './aws-exports';
 import MainPage from './containers/MainPage/MainPage';
 import * as Styles from './App.styles';
 
-// Amplify.configure(awsconfig);
+Amplify.configure();
 
 // analytics does not seem to work
-// Analytics.enable();
+Analytics.enable();
 
 type Props = {};
 
