@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 import NextParticleHome from '../../NextParticle/NextParticleHome';
 import Page from '../Page/Page';
+import ApiCall from '../../components/ApiCall/ApiCall';
 import Button from '../../components/Button/Button';
 
 import * as Styles from './MainPage.styles';
@@ -77,6 +78,7 @@ export default class MainPage extends Component<Props, {}> {
 							</div>
 						</div>
 					</Styles.SocialLinks>
+					<ApiCall />
 				</Styles.MainPage>
 			</Page>
 		);
