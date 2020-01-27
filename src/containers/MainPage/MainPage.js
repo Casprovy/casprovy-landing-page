@@ -13,7 +13,7 @@ type Props = {};
 
 export default class MainPage extends Component<Props, {}> {
 	consoleText = () => {
-		console.log('%cNICE TO SEE YOU!', 'font-size: 25px; ; color: #4ecfff');
+		console.log('%cNICE TO SEE YOU!', 'font-size: 20px; ; color: #4ecfff');
 	};
 
 	componentDidMount() {
