@@ -78,7 +78,7 @@ export default class MainPage extends Component<Props, {}> {
 							</div>
 						</div>
 					</Styles.SocialLinks>
-					<ApiCall />
+					{/* <ApiCall /> */}
 				</Styles.MainPage>
 			</Page>
 		);
