@@ -9,7 +9,7 @@
 
 The purpose was to create a dedicated personal web site. Since my primary occupation is running an IT boutique house, the page welcomes you directly to my commercial site.
 
-At the same time it is an opportunity for me to experiment with React and AWS.
+At the same time it is an opportunity for me to experiment with [React](https://reactjs.org/) and [AWS Amplify](https://aws.amazon.com/amplify/).
 
 ### Running the code
 
