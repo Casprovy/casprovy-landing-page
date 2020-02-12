@@ -3,7 +3,7 @@
   <p>
 
 
-![ReactVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/react) ![AmplifyVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/aws-amplify?color=orange) ![StyledCompVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/styled-components?color=pink) ![Last commit](https://img.shields.io/github/last-commit/Casprovy/casprovy-landing-page) ![RepoSize](https://img.shields.io/github/repo-size/casprovy/casprovy-landing-page?color=ff69b4) ![TwitterFollow](https://img.shields.io/twitter/follow/casprovy?style=social)
+![ReactVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/react) ![AmplifyVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/aws-amplify?color=orange) ![StyledCompVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/styled-components?color=pink) ![BulmaVer](https://img.shields.io/github/package-json/dependency-version/casprovy/casprovy-landing-page/bulma?color=green) ![Last commit](https://img.shields.io/github/last-commit/Casprovy/casprovy-landing-page) ![RepoSize](https://img.shields.io/github/repo-size/casprovy/casprovy-landing-page?color=ff69b4) ![TwitterFollow](https://img.shields.io/twitter/follow/casprovy?style=social)
 
 ## Casprovy Landing Page
 
