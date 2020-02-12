@@ -11,7 +11,7 @@ The purpose was to create a dedicated personal web site. Since my primary occupa
 
 At the same time it is an opportunity for me to experiment with React and AWS.
 
-###Running the code
+### Running the code
 
 ```bash
 npm start
