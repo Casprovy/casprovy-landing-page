@@ -52,7 +52,7 @@ export default class MainPage extends Component<Props, {}> {
 							</div>
 							<div className='column is-narrow-tablet'>
 								<Styles.ContactSocialLink
-									href='https://www.linkedin.com/in/tomasz-gasienica-szostak-279b175/'
+									href='https://www.linkedin.com/in/tomasz-gasienica-szostak-cfa-279b175/'
 									target='_blank'
 								>
 									<img

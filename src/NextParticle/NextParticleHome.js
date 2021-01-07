@@ -20,7 +20,7 @@ export const NextParticleHome = () => {
 		maxWidth: isMobile || isSmall ? 200 : 320,
 		maxHeight: isMobile || isSmall ? 200 : 320,
 		mouseForce: 50,
-		clickStrength: 100
+		clickStrength: 100,
 		// particleSize: 1,
 		// layerCount: 2,
 		// layerDistance: 5,
@@ -32,14 +32,14 @@ export const NextParticleHome = () => {
 		// shrinkDistance: 50
 	});
 
-	const mergeSettings = partialSettings => setSettings({ ...settings, ...partialSettings });
+	const mergeSettings = (partialSettings) => setSettings({ ...settings, ...partialSettings });
 
 	const resizeWindow = () => {
 		const isMobile = window.innerWidth < 768;
 		mergeSettings({
 			// width: Math.min(window.innerWidth - 30, 1140),
 			width: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),
-			height: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520)
+			height: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),
 		});
 	};
 
